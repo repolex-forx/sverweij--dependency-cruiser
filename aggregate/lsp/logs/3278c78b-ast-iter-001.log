@@ -1,0 +1,7 @@
+[2026-04-14T13:34:17Z] === AST ITERATION 1 START | repo=sverweij/dependency-cruiser sha=3278c78b ===
+[2026-04-14T13:34:17Z] [iter=1] PHASE START: ast repo=sverweij/dependency-cruiser sha=3278c78b
+[2026-04-14T13:34:17Z] [iter=1] Building AST aggregate chunks
+[2026-04-14T13:37:17Z] [iter=1] AST chunks built count=1 triples=1900553
+[2026-04-14T13:37:17Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/3278c78bba286877efcde8ca6b5e24aba22b522b/.complete
+[2026-04-14T13:37:17Z] [iter=1] PHASE END: ast elapsed_s=179 elapsed_min=3.0
+[2026-04-14T13:37:17Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
