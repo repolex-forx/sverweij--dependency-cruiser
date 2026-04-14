@@ -525,8 +525,9 @@
     {
       "@id": "https://repolex.ai/r/sverweij/dependency-cruiser/commit/d4ab17728eafdd50a7a4588e9b91d77585badd33",
       "git:hexsha": "d4ab17728eafdd50a7a4588e9b91d77585badd33",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "v10.9.0"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v10.9.0",
+      "repolex:parsedAt": "2026-04-14T12:31:10.066116+00:00"
     },
     {
       "@id": "https://repolex.ai/r/sverweij/dependency-cruiser/commit/ee547daf8da0e647babd6211f1c15b542aa441c5",
