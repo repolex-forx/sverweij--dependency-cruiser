@@ -1,0 +1,74 @@
+[2026-04-15T13:38:33Z] === ENRICH ITERATION 1 START | repo=sverweij/dependency-cruiser sha=33f13d0c ===
+[2026-04-15T13:38:33Z] [iter=1] PHASE START: enrich repo=sverweij/dependency-cruiser sha=33f13d0c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/33f13d0c-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/33f13d0c028830d4f2e50743dba994bd067be196.nq.gz
+[2026-04-15T13:39:13Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=82 MB
+[2026-04-15T13:39:19Z] [iter=1] AST store loaded triples=890510 load_secs=6 mem_mb=867 MB
+[2026-04-15T13:39:19Z] [iter=1] Step 2: Finding LSP targets mem_mb=867 MB
+[2026-04-15T13:39:20Z] [iter=1] LSP targets found call_sites=9509 imports=211 extends=21 implements=0 secs=1
+[2026-04-15T13:39:20Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=867 MB
+[2026-04-15T13:39:25Z] [iter=1] Position index built positions=61946 nodes_with_types=73822 secs=5 mem_mb=867 MB
+[2026-04-15T13:39:25Z] [iter=1] Step 3: Starting LSP resolution mem_mb=867 MB already_completed_types=[] already_completed_files=0
+[2026-04-15T13:39:25Z] [iter=1] Resolving target type target_type=call_site count=9509
+[2026-04-15T13:39:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.9 files_done=0 resolved=0 errors=0 current=test/report/error-html/error-html.spec.js
+[2026-04-15T13:39:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.4 files_done=4 resolved=5 errors=91 current=test/extract/resolve/index.spec.js
+[2026-04-15T13:40:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.1 files_done=5 resolved=5 errors=219 current=src/graph-utl/match-facade.js
+[2026-04-15T13:41:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=9 resolved=7 errors=307 current=test/extract/ast-extractors/extract-es6-deps.spec.js
+[2026-04-15T13:41:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.2 files_done=12 resolved=7 errors=400 current=test/enrich/derive/reachable/get-path.spec.js
+[2026-04-15T13:42:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.9 files_done=14 resolved=7 errors=517 current=test/extract/ast-extractors/extract-typescript-commonjs.spec.js
+[2026-04-15T13:43:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.2 files_done=18 resolved=8 errors=758 current=src/cli/init-config/environment-helpers.js
+[2026-04-15T13:44:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.8 files_done=21 resolved=10 errors=860 current=test/cli/init-config/environment-helpers-matching-filenames.spec.js
+[2026-04-15T13:45:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.6 files_done=23 resolved=10 errors=991 current=test/report/error-html/utl.spec.js
+[2026-04-15T13:45:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.2 files_done=26 resolved=14 errors=1093 current=src/main/utl/normalize-re-properties.js
+[2026-04-15T13:46:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.9 files_done=35 resolved=16 errors=1223 current=test/config-utl/extract-webpack-resolve-config.spec.js
+[2026-04-15T13:47:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.8 files_done=39 resolved=24 errors=1371 current=test/extract/ast-extractors/extract-with-swc-type-imports.spec.js
+[2026-04-15T13:48:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.5 files_done=44 resolved=26 errors=1498 current=src/graph-utl/consolidate-modules.js
+[2026-04-15T13:48:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.0 files_done=48 resolved=32 errors=1586 current=test/validate/index.spec.js
+[2026-04-15T13:49:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.6 files_done=49 resolved=32 errors=1702 current=src/extract/resolve/resolve.js
+[2026-04-15T13:49:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.2 files_done=53 resolved=39 errors=1803 current=test/report/plugins/index.is-valid-plugin.spec.js
+[2026-04-15T13:50:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.7 files_done=56 resolved=42 errors=1893 current=src/config-utl/extract-depcruise-config/merge-configs.js
+[2026-04-15T13:50:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.4 files_done=60 resolved=43 errors=2011 current=tools/regenerate-main-fixtures.utl.js
+[2026-04-15T13:51:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.9 files_done=63 resolved=51 errors=2102 current=test/graph-utl/add-focus.spec.js
+[2026-04-15T13:52:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.6 files_done=69 resolved=55 errors=2213 current=test/config-utl/extract-ts-config.spec.js
+[2026-04-15T13:52:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.1 files_done=71 resolved=55 errors=2309 current=test/api.spec.js
+[2026-04-15T13:53:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.6 files_done=76 resolved=56 errors=2397 current=test/extract/transpile/livescript-wrap.spec.js
+[2026-04-15T13:53:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.1 files_done=81 resolved=61 errors=2484 current=test/validate/match-module-rule.dependents.spec.js
+[2026-04-15T13:54:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.3 files_done=84 resolved=79 errors=2686 current=test/cli/init-config/utl.spec.js
+[2026-04-15T13:55:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.8 files_done=89 resolved=79 errors=2780 current=test/extract/ast-extractors/extract-with-swc-dynamic-imports.spec.js
+[2026-04-15T13:55:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.4 files_done=94 resolved=94 errors=2882 current=src/report/anon/random-string.js
+[2026-04-15T13:56:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.0 files_done=98 resolved=95 errors=2978 current=src/report/error-html/error-html.template.js
+[2026-04-15T13:57:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.7 files_done=99 resolved=102 errors=3109 current=test/extract/utl/compare.dependencies-equal.spec.js
+[2026-04-15T13:57:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.3 files_done=101 resolved=102 errors=3206 current=src/extract/resolve/module-classifiers.js
+[2026-04-15T13:58:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.8 files_done=106 resolved=106 errors=3302 current=src/graph-utl/consolidate-module-dependencies.js
+[2026-04-15T13:59:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.5 files_done=110 resolved=107 errors=3419 current=test/enrich/de-duplicate-violations.spec.js
+[2026-04-15T13:59:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.3 files_done=114 resolved=113 errors=3552 current=test/enrich/derive/reachable/index.spec.js
+[2026-04-15T14:00:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.9 files_done=118 resolved=114 errors=3672 current=test/main/main.format.spec.js
+[2026-04-15T14:01:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.5 files_done=122 resolved=115 errors=3763 current=test/main/fixtures/jsx/index.js
+[2026-04-15T14:01:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.0 files_done=128 resolved=121 errors=3852 current=test/validate/index.license.spec.js
+[2026-04-15T14:02:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.6 files_done=132 resolved=122 errors=3951 current=src/cli/init-config/write-run-scripts-to-manifest.js
+[2026-04-15T14:02:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.2 files_done=136 resolved=135 errors=4065 current=test/extract/resolve/determine-dependency-types.spec.js
+[2026-04-15T14:03:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.7 files_done=138 resolved=135 errors=4153 current=src/validate/index.js
+[2026-04-15T14:03:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.2 files_done=144 resolved=138 errors=4243 current=src/extract/get-dependencies.js
+[2026-04-15T14:04:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.9 files_done=148 resolved=145 errors=4354 current=src/extract/transpile/babel-wrap.js
+[2026-04-15T14:04:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.4 files_done=154 resolved=146 errors=4454 current=test/extract/fixtures/donotfollow-dependency-types/dofollowstuffinhere/index.js
+[2026-04-15T14:05:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.9 files_done=160 resolved=147 errors=4542 current=test/main/rule-set/validate.spec.js
+[2026-04-15T14:06:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.5 files_done=163 resolved=149 errors=4633 current=src/extract/transpile/svelte-wrap.js
+[2026-04-15T14:06:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.0 files_done=170 resolved=161 errors=4728 current=test/extract/fixtures/reachable/src/relevant/dothings.js
+[2026-04-15T14:07:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.5 files_done=176 resolved=163 errors=4820 current=test/report/dot/folder-level/folder-level.spec.js
+[2026-04-15T14:07:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.0 files_done=184 resolved=167 errors=4908 current=src/config-utl/extract-depcruise-config/index.js
+[2026-04-15T14:08:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.7 files_done=189 resolved=170 errors=5016 current=src/extract/ast-extractors/extract-cjs-deps.js
+[2026-04-15T14:08:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.3 files_done=196 resolved=175 errors=5133 current=src/validate/match-module-rule.js
+[2026-04-15T14:09:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.9 files_done=203 resolved=183 errors=5226 current=test/extract/ast-extractors/extract-typescript-exports.spec.js
+[2026-04-15T14:10:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.5 files_done=210 resolved=184 errors=5333 current=test/extract/fixtures/donotfollow/dofollowstuffinhere/index.js
+[2026-04-15T14:10:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=32.0 files_done=220 resolved=189 errors=5421 current=src/report/dot/prepare-flat-level.js
+[2026-04-15T14:11:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=32.6 files_done=230 resolved=205 errors=5524 current=test/validate/match-module-rule.orphan.spec.js
+[2026-04-15T14:11:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.2 files_done=239 resolved=208 errors=5629 current=test/extract/ast-extractors/extract-with-swc.utl.js
+[2026-04-15T14:12:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.7 files_done=249 resolved=219 errors=5721 current=test/extract/ast-extractors/extract-typescript.utl.js
+[2026-04-15T14:12:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.2 files_done=258 resolved=219 errors=5811 current=src/graph-utl/rule-set.js
+[2026-04-15T14:13:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.8 files_done=268 resolved=222 errors=5900 current=test/cli/fixtures/cjs/one_only_one.js
+[2026-04-15T14:13:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.3 files_done=283 resolved=222 errors=5999 current=src/report/anon/anonymize-path.js
+[2026-04-15T14:14:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.9 files_done=297 resolved=230 errors=6104 current=test/main/fixtures/cruise-reporterless/amd/simplified-commonjs-wrapper.js
+[2026-04-15T14:14:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.4 files_done=324 resolved=242 errors=6193 current=test/main/fixtures/dynamic-imports/es/src/dynamic-to-circular.js
+[2026-04-15T14:15:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.9 files_done=390 resolved=256 errors=6279 current=test/extract/fixtures/cjs/directory-inclusion.js
+[2026-04-15T14:15:42Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=37.1 files_completed=500 new_files_this_iter=500 mem_mb=867 MB
+[2026-04-15T14:15:42Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/33f13d0c028830d4f2e50743dba994bd067be196.nq.gz triples=32361
+[2026-04-15T14:15:42Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-04-15T14:15:42Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=2229 elapsed_min=37.1 files_completed=500
